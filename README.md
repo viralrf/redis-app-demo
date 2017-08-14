@@ -1,6 +1,6 @@
 # redis-app-demo
 
-App creada con la intencion de probar Redis y Express-Handlebars
+Demo app creada con Redis y Express-Handlebars.
 
 Creada con:  
   Node@v6.11.2
