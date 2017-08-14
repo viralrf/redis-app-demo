@@ -9,7 +9,7 @@ const bluebird = require('bluebird');
 const app = express();
 const port = 3000;
 
-let client = redis.createClient();
+const client = redis.createClient();
 
 bluebird.promisifyAll(redis.RedisClient.prototype);
 bluebird.promisifyAll(redis.Multi.prototype);
