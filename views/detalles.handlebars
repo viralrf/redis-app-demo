@@ -1,0 +1,11 @@
+
+<h1>{{usuario.nombre}} {{usuario.apellido}} [{{usuario.id}}]</h1>
+<ul class="list-group">
+	<li class="list-group-item"><strong>Email: </strong>{{usuario.email}}</li>
+	<li class="list-group-item"><strong>Fono: </strong>{{usuario.fono}}</li>
+</ul>
+
+<a class="btn btn-default pull-left" href="/">Volver</a>
+<form method="POST" action="/eliminar/{{usuario.id}}?_method=DELETE">
+	<input type="submit" class="btn btn-danger pull-right" value="Eliminar">
+</form> 

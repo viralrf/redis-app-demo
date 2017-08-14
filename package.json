@@ -1,0 +1,19 @@
+{
+  "name": "redis-app-demo",
+  "version": "1.0.0",
+  "description": "Demo usando redis y express-handlebars",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "author": "Samuel Noguera",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.9",
+    "redis": "^2.8.0"
+  }
+}
